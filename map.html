@@ -15,6 +15,7 @@
     <h1>TRASHDASH</h1>
     <div id="map"></div>
     <script src="map.js"></script>
+    <script src="submit.js"></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_ZvN9wFUAvAxhCekgMpDhiNeeBJtjxd8&map_ids=431ceab9b72a10f0&callback=initMap"
       defer
@@ -22,6 +23,19 @@
     <div id="custom-control"></div>
     <div class="d-flex justify-content-center">
     <button type="button" id="button" class="btn btn-primary" class="lol" onclick="addMarker1()">Click here to add a marker</button> 
+    <div class="image-inputs">
+      <div class="image-input">
+        <label for="before-image">Before Image:</label>
+        <input type="file" id="before-image" accept="image/*">
+        <img id="before-preview">
+      </div>
+      <div class="image-input">
+        <label for="after-image">After Image:</label>
+        <input type="file" id="after-image" accept="image/*">
+        <img id="after-preview">
+      </div>
+      <button id="submit-button" disabled>Submit</button>
+    </div>
 </div>
 </body>
 </html>
