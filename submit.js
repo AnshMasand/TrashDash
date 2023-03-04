@@ -5,8 +5,6 @@ window.onload=function() {
     const beforePreview = document.getElementById("before-preview");
     const afterPreview = document.getElementById("after-preview");
   
-  
-  
   beforeImageInput.addEventListener('change', function() {
     const file = this.files[0];
     const reader = new FileReader();
@@ -27,7 +25,6 @@ window.onload=function() {
     reader.readAsDataURL(file);
   });
   
-  
   const submitButton = document.getElementById("submit-button");
   const beforeImageInput1 = document.getElementById("before-image");
   const afterImageInput1 = document.getElementById("after-image");
@@ -42,5 +39,3 @@ window.onload=function() {
     }
   }
   }
-
-  
