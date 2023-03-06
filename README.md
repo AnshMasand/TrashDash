@@ -1,7 +1,7 @@
 # TrashDash
 We have created an app to pick up trash and reward users for it. The project was made using html, css, javascript and googlemaps API. It uses firebase for storage.
 
-![alt text]([https://pasteboard.co/Ayj1RS2f9YkW.png](https://firebasestorage.googleapis.com/v0/b/trash-dash-89853.appspot.com/o/Screenshot%202023-03-06%20170245.png?alt=media&token=f237d905-b720-4e92-b692-b461731fa593))
+![alt text](https://firebasestorage.googleapis.com/v0/b/trash-dash-89853.appspot.com/o/Screenshot%202023-03-06%20170245.png?alt=media&token=f237d905-b720-4e92-b692-b461731fa593)
 
 
 
