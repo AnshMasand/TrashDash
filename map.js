@@ -99,7 +99,4 @@ function initControl(map) {
       });
 }
 
-
-
-
 window.initMap = initMap;
