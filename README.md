@@ -5,6 +5,9 @@ We have created an app to pick up trash and reward users for it. The project was
 
 ![alt text](https://firebasestorage.googleapis.com/v0/b/trash-dash-89853.appspot.com/o/Screenshot%202023-03-06%20170818.png?alt=media&token=f96c3a25-fe22-4571-b02f-d7d0cf33289d)
 
+![alt text](https://firebasestorage.googleapis.com/v0/b/trash-dash-89853.appspot.com/o/Screenshot%202023-03-06%20170857.png?alt=media&token=62378e65-91ae-463f-a680-b91fe05a42b9)
+
+
 
 
 
