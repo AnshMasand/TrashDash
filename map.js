@@ -1,3 +1,17 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyClMhEEWKhE5uz5DApq1Y58uVRqWTg1Luo",
+  authDomain: "trashdash-d3508.firebaseapp.com",
+  databaseURL: "https://trashdash-d3508-default-rtdb.firebaseio.com",
+  projectId: "trashdash-d3508",
+  storageBucket: "trashdash-d3508.appspot.com",
+  messagingSenderId: "729752667316",
+  appId: "1:729752667316:web:b46a5026c54eee676743e1"
+};
+
+firebase.initializeApp(firebaseConfig);
+
+var contactFormDB=firebase.database().ref('geolocation')
+
 
 function initMap() {
   btn = document.getElementById('button'),   
