@@ -35,14 +35,14 @@ window.onload=function() {
 
   // Get a reference to your Firebase database
 
-  var firebaseConfig = {
-    apiKey: "AIzaSyDgg5KaiFOs__y8YdO920u1rsrcLPIyaMY",
-    authDomain: "trash-dash-89853.firebaseapp.com",
-    projectId: "trash-dash-89853",
-    storageBucket: "trash-dash-89853.appspot.com",
-    messagingSenderId: "136021772416",
-    appId: "1:136021772416:web:f24ddf428d20fc167a3e65",
-    measurementId: "G-EY5LZR9264"
+  const firebaseConfig = {
+    apiKey: "AIzaSyCSLg5Ooq5K1EmcTBXx_Lk0SFK7HaHzt4E",
+    authDomain: "portfolio-projects-b9bae.firebaseapp.com",
+    databaseURL: "https://portfolio-projects-b9bae-default-rtdb.firebaseio.com",
+    projectId: "portfolio-projects-b9bae",
+    storageBucket: "portfolio-projects-b9bae.appspot.com",
+    messagingSenderId: "146270954213",
+    appId: "1:146270954213:web:7d22911b86a0ed69c2ea0c"
   };
   firebase.initializeApp(firebaseConfig);
   

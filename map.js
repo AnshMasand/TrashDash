@@ -13,6 +13,7 @@ firebase.initializeApp(firebaseConfig);
 var contactFormDB=firebase.database().ref('geolocation')
 
 
+
 function initMap() {
   btn = document.getElementById('button'),   
   map = new google.maps.Map(document.getElementById('map'),{
@@ -88,6 +89,8 @@ function initControl(map) {
                 url: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
               }
             });
+
+            console.log(pos);
       
             // Center the map on the current location
             map.setCenter(pos);
@@ -98,5 +101,8 @@ function initControl(map) {
         }
       });
 }
+
+
+
 
 window.initMap = initMap;
