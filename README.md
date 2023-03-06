@@ -7,4 +7,4 @@ We have created an app to pick up trash and reward users for it. The project was
 
 - Given the time constraint of our mid-term exams we were unable to make a final product. However we enjoyed the oppurtunity provided to us. We will continue working on it and will keep this github repository updated. 
 
-Deadline for completion - 
+Deadline for completion - 4 months
